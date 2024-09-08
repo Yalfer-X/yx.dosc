@@ -17,8 +17,8 @@ API представляет собой систему управления по
 
 ## Установка
 - Клонирование репозитория:
-`git clone https://github.com/yx.backend.git
-cd ваш_репозиторий`
+```git clone https://github.com/yx.backend.git
+cd ваш_репозиторий```
 - Установка зависимостей:
 `cd yx.backend
 pip install -r requirements.txt`
