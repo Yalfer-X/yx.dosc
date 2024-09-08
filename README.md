@@ -17,26 +17,33 @@ API представляет собой систему управления по
 
 ## Установка
 - Клонирование репозитория:
-```git clone https://github.com/yx.backend.git
-cd ваш_репозиторий```
+```
+git clone https://github.com/yx.backend.git
+cd ваш_репозиторий
+```
 - Установка зависимостей:
-`cd yx.backend
-pip install -r requirements.txt`
+```
+cd yx.backend
+pip install -r requirements.txt
+```
 - Настройка базы данных:
   1. Создайте `config.ini` в корне репозитория.
   2. Заполните созданный `config.ini` следующими данными:
-    `[DATABASE]
-    host=localhost
-    port=5432
-    user=postgres
-    password=root
-    database=yalferX`
-  4. Настройте соединение с вашей базой данных в файле конфигурации.
+  ```
+  [DATABASE]
+  host=localhost
+  port=5432
+  user=postgres
+  password=root
+  database=yalferX
+  ```
+  3. Настройте соединение с вашей базой данных в файле конфигурации.
 - Разверните backend.
 
 ## Примеры использования
 Основной эндпоинт - это получение/создание аккаунта пользователя:
-`/guild_user
+```
+/guild_user
 :method: POST
 :content-type: application/json
 :request body:
@@ -44,8 +51,10 @@ pip install -r requirements.txt`
   "guild_id": integer,
   "member_id": integer,
   "only_get": bool
-}`
-`:reponse-body:
+}
+```
+```
+:reponse-body:
 {
   "user": {
     "user": {
@@ -117,15 +126,19 @@ pip install -r requirements.txt`
     "is_banned": null,
     "is_active": null
   }
-}`
+}
+```
+
 ## Вклад
 - Если вы хотите внести свой вклад в проект, пожалуйста обращайтесь на наш Discord сервер: https://discord.gg/FcwhkKhFmT.
 - Вы можете стать нашим backend-разработчиком по стеку:
-  `FastAPI (v0.112.x)
-  PostgreSQL
-  Tortoise (0.21.x)
-  Python (3.10.x)`
-  Ждём ваших заявок на Discord сервере: https://discord.gg/FcwhkKhFmT
+```
+FastAPI (v0.112.x)
+PostgreSQL
+Tortoise (0.21.x)
+Python (3.10.x)
+```
+Ждём ваших заявок на Discord сервере: https://discord.gg/FcwhkKhFmT
 
 ## Примечание
 *Yalfer X и Yalfer X API не являются OpenSource проектами. Доступ к их файлом ограничен*
