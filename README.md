@@ -28,14 +28,14 @@ pip install -r requirements.txt
 ```
 - Настройка базы данных:
   1. Создайте `config.ini` в корне репозитория.
-  2. Заполните созданный `config.ini` следующими данными:
+  2. Заполните созданный `config.ini` информацией:
   ```
   [DATABASE]
-  host=localhost
-  port=5432
-  user=postgres
-  password=root
-  database=yalferX
+  host=
+  port=
+  user=
+  password=
+  database=
   ```
   3. Настройте соединение с вашей базой данных в файле конфигурации.
 - Разверните backend.
