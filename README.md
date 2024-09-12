@@ -31,11 +31,11 @@ pip install -r requirements.txt
   2. Заполните созданный `config.ini` следующими данными:
   ```
   [DATABASE]
-  host=localhost
-  port=5432
-  user=postgres
-  password=root
-  database=yalferX
+  host=
+  port=
+  user=
+  password=
+  database=
   ```
   3. Настройте соединение с вашей базой данных в файле конфигурации.
 - Разверните backend.
