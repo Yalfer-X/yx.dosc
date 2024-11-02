@@ -133,7 +133,7 @@ pip install -r requirements.txt
 - Если вы хотите внести свой вклад в проект, пожалуйста обращайтесь на наш Discord сервер: https://discord.gg/FcwhkKhFmT.
 - Вы можете стать нашим backend-разработчиком по стеку:
 ```
-FastAPI (v0.112.x)
+FastAPI (v0.113.x)
 PostgreSQL
 Tortoise (0.21.x)
 Python (3.10.x)
